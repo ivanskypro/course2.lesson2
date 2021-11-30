@@ -1,0 +1,12 @@
+package ru.pro.sky;
+
+public class Truck extends Car {
+    public Truck (String modelName, int wheelsCount) {
+        super(modelName,wheelsCount);
+    }
+
+
+    public void checkTrailer() {
+        System.out.println(getModelName() + " Проверяем прицеп");
+    }
+}
